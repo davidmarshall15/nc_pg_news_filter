@@ -8,7 +8,7 @@ CREATE SEQUENCE IF NOT EXISTS oc_news_filter_id_seq
 CREATE TABLE IF NOT EXISTS oc_news_filter
 (
     id bigint NOT NULL DEFAULT nextval('oc_news_filter_id_seq'::regclass),
-    sub_domain text COLLATE pg_catalog."default",
-    txt_filter text COLLATE pg_catalog."default",
+    sub_domain text COLLATE pg_catalog."default" NOT NULL,
+    txt_filter text COLLATE pg_catalog."default" NOT NULL,
     inc_filter boolean NOT NULL DEFAULT true
 );
