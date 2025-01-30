@@ -1,7 +1,8 @@
 # nc_pg_news_filter
 Filter news items in nextcloud when data is stored in postgres
 
-This is a quick solution until (if) filtering becomes available in the nextcloud news app
+This is a quick solution until (if) filtering becomes available in the nextcloud news app.
+
 It is intended for home use, although DBA's may also want to make use of this. 
 
 Installation
