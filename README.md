@@ -13,9 +13,13 @@ Download and run the sql in the following order.
 3. cr_oc_news_items_trigger.sql
 
 Step 1 creates table oc_news_filter, this table needs populating to apply filters.
+
 Table columns:
+
     sub_domain - This is the subscription domain, for example news.com
+    
     txt_filter - This is the text to filter on, it is case insensitive
+    
     inc_filter - Set to true to only include articles that match the txt_filter, set to false to exclude articles that match the txt_filter.
     
 NOTE: each row can only have 1 filter, add additional rows for multiple filters.
