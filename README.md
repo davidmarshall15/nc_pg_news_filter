@@ -34,6 +34,6 @@ Example of excluding apple from engadget.com
         VALUES ('engadget.com', 'apple', false);
         
 ## Web access
-Download index.php for a simple web form to insert, update and delete rows.
-The head of index.php requires updating with database access details.
-Security needs to be considered prior to using this file.
+* Download index.php for a simple web form to insert, update and delete rows.
+* The head of index.php requires updating with database access details.
+* Security needs to be considered prior to using this file.
