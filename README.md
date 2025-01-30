@@ -11,7 +11,7 @@ Download and run the sql in the following order.
 2. cr_oc_news_filter_func.sql
 3. cr_oc_news_items_trigger.sql
 
-Step 1 creates table cr_oc_news_filter, this table needs populating to apply filters.
+Step 1 creates table oc_news_filter, this table needs populating to apply filters.
 Table columns:
     sub_domain - This is the subscription domain, for example news.com
     txt_filter - This is the text to filter on, it is case insensitive
@@ -25,7 +25,7 @@ Example of including only articles on nasa from theregister.com
         sub_domain, txt_filter, inc_filter)
         VALUES ('theregister.com', 'nasa', true);
     
-Example of excluding apple from Tech Radar reviews
+Example of excluding apple from engadget.com
 
     INSERT INTO oc_news_filter(
         sub_domain, txt_filter, inc_filter)
