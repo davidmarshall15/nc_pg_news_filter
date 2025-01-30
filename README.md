@@ -31,3 +31,8 @@ Example of excluding apple from engadget.com
     INSERT INTO oc_news_filter(
         sub_domain, txt_filter, inc_filter)
         VALUES ('engadget.com', 'apple', false);
+        
+## Web access
+Download index.php for a simple web form to insert, update and delete rows.
+The head of index.php requires updating with database access details.
+Security needs to be considered prior to using this file.
