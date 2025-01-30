@@ -90,7 +90,7 @@ $records = $pdo->query("SELECT * FROM oc_news_filter")->fetchAll(PDO::FETCH_ASSO
         <?php endforeach; ?>
     </table>
     <p>
-    Include Filter checked (Yes): Include all articles that match the text filter, everything else is excluded.<br>
+    Include Filter checked (Yes): Include all articles that match the text filter and Subscription Domain, everything else is excluded.<br>
     Include Filter unchecked (No): When no Include Filters are defined for the Subscription Domain, exclude articles that match the text filter.
     </p>
 </body>
