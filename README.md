@@ -37,3 +37,5 @@ Example of excluding apple from engadget.com
 * Download index.php for a simple web form to insert, update and delete rows.
 * The head of index.php requires updating with database access details.
 * Security needs to be considered prior to using this file.
+
+![image](https://github.com/user-attachments/assets/9072e586-fa8a-47fa-899f-8b0948e8db2e)
