@@ -5,6 +5,8 @@ This is a quick solution until (if) filtering becomes available in the nextcloud
 
 It is intended for home use, although DBA's may also want to make use of this. 
 
+**NOTE:** Table names are prefixed with the default oc_
+
 ## Installation
 Download and run the sql in the following order.
 1. cr_oc_news_filter.sql
