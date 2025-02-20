@@ -1,11 +1,12 @@
 <?php
 // Database connection details
 // No security around this - strongly recommend security is added such as restricted to LAN addresses.
+require_once('config.php');
+$host = Hostname;
+$dbname = Database;
+$user = Username;
+$password = Password;
 
-$host = 'database-hostname';
-$dbname = 'your_database';
-$user = 'your_username';
-$password = 'your_password';
 $dsn = "pgsql:host=$host;dbname=$dbname";
 
 try {

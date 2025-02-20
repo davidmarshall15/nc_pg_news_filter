@@ -41,9 +41,9 @@ When a filter exists for the domain, it is checked and marked as read if require
 **Step 3** creates the BEFORE INSERT TRIGGER on the news items table, this calls the function in step 2 to check the filter.
 
 ## Web access
-* Download index.php for a simple web form to insert, update and delete rows.
-* The head of index.php requires updating with database access details.
-* Security needs to be considered prior to using this file.
+* Download index.php and config.php for a simple web form to insert, update and delete rows.
+* Update config.php with database access details.
+* Security needs to be considered prior to using this.
 
 ![news-filter](https://github.com/user-attachments/assets/a6728d6f-03cc-4fbb-a6a7-142aaec7b756)
 
